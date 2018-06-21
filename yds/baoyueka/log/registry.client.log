@@ -1,0 +1,9 @@
+2018-06-21 14:00:35,261 WARN  yutian.registry - [Global] Deliverer thread is starting...
+2018-06-21 14:00:35,272 WARN  yutian.registry - [Global] Connecting to servers...
+2018-06-21 14:00:35,275 WARN  yutian.registry - [Global] Server address registry.yutian.net:9600 is added. (1 servers now)
+2018-06-21 14:00:35,277 WARN  yutian.registry - [Global] Failed to connect to server: registry.yutian.net:9600
+2018-06-21 14:31:11,366 WARN  yutian.registry - [Global] Deliverer is interrupted during global reconnection delay: 
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.yutian.registry.client.ConfigClientConnectionManager$DelivererThread.run(ConfigClientConnectionManager.java:328)
+2018-06-21 14:31:16,376 ERROR yutian.registry - [Global] Unexpected interruption in NotifierThread: java.lang.InterruptedException

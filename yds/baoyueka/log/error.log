@@ -1,0 +1,222 @@
+ERROR [2018-06-21 14:00:37,126][ExchangeProductCard.java 106] 0;mark=85934825;userId=210000265309737;ticketNum=v79akbEt8fH;ticketPwd=183462;ID=196208122;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.RemotingException: ???????????????192.168.10.208:12200?_TIMEOUT=60000
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:96)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:76)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:71)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:57)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:50)
+	... 18 more
+Caused by: java.util.concurrent.ExecutionException: com.fiber.remoting.RemotingException: ??????????????: 192.168.10.208#12200
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.fiber.remoting.util.SharedResourcesInit.getResource(SharedResourcesInit.java:88)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:89)
+	... 22 more
+Caused by: com.fiber.remoting.RemotingException: ??????????????: 192.168.10.208#12200
+	at com.fiber.remoting.impl.ClientConnectionFactory.createClient(ClientConnectionFactory.java:82)
+	at com.fiber.remoting.impl.ClientConnectionFactory.createClient(ClientConnectionFactory.java:60)
+	at com.fiber.remoting.impl.DefaultConnectionManager$SingleClientRepository.keyedInitResource(DefaultConnectionManager.java:402)
+	at com.fiber.remoting.impl.DefaultConnectionManager$SingleClientRepository.keyedInitResource(DefaultConnectionManager.java:371)
+	at com.fiber.remoting.util.SharedResourcesInit$2.call(SharedResourcesInit.java:78)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.fiber.remoting.util.SharedResourcesInit.getResource(SharedResourcesInit.java:84)
+	... 23 more
+ERROR [2018-06-21 14:00:38,142][ExchangeProductCard.java 106] 1;mark=85934803;userId=210000265309748;ticketNum=GqhZ2sYJZR7;ticketPwd=372876;ID=196208123;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.RemotingException: ???????????????192.168.10.208:12200?_TIMEOUT=60000
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:96)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:76)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:71)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:57)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:50)
+	... 18 more
+Caused by: java.util.concurrent.ExecutionException: com.fiber.remoting.RemotingException: ??????????????: 192.168.10.208#12200
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.fiber.remoting.util.SharedResourcesInit.getResource(SharedResourcesInit.java:88)
+	at com.fiber.remoting.impl.DefaultConnectionManager.get(DefaultConnectionManager.java:89)
+	... 22 more
+Caused by: com.fiber.remoting.RemotingException: ??????????????: 192.168.10.208#12200
+	at com.fiber.remoting.impl.ClientConnectionFactory.createClient(ClientConnectionFactory.java:82)
+	at com.fiber.remoting.impl.ClientConnectionFactory.createClient(ClientConnectionFactory.java:60)
+	at com.fiber.remoting.impl.DefaultConnectionManager$SingleClientRepository.keyedInitResource(DefaultConnectionManager.java:402)
+	at com.fiber.remoting.impl.DefaultConnectionManager$SingleClientRepository.keyedInitResource(DefaultConnectionManager.java:371)
+	at com.fiber.remoting.util.SharedResourcesInit$2.call(SharedResourcesInit.java:78)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.fiber.remoting.util.SharedResourcesInit.getResource(SharedResourcesInit.java:84)
+	... 23 more
+ERROR [2018-06-21 14:05:56,265][DefaultConnection.java 234] ??????, requestId=[806].
+???????=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+????=[60001]ms.
+ERROR [2018-06-21 14:05:56,266][ExchangeProductCard.java 106] 807;mark=85917990;userId=210000265324333;ticketNum=mTbMV0q7nnz;ticketPwd=988295;ID=196210095;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.TimeoutException: ???????????????60000??
+	at com.fiber.remoting.impl.DefaultClient.receiveResponse(DefaultClient.java:132)
+	at com.fiber.remoting.impl.DefaultClient.invoke(DefaultClient.java:38)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:52)
+	... 18 more
+ERROR [2018-06-21 14:06:47,778][DefaultConnection.java 189] ?????requestId=[806]??????, ???????????, ????????. com.fiber.remoting.impl.ConnectionResponse@373ad3ce
+ERROR [2018-06-21 14:13:30,948][DefaultConnection.java 234] ??????, requestId=[1983].
+???????=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+????=[60000]ms.
+ERROR [2018-06-21 14:13:30,949][ExchangeProductCard.java 106] 1984;mark=85888119;userId=210000263100525;ticketNum=3gDeH06z0Db;ticketPwd=691272;ID=196081420;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.TimeoutException: ???????????????60000??
+	at com.fiber.remoting.impl.DefaultClient.receiveResponse(DefaultClient.java:132)
+	at com.fiber.remoting.impl.DefaultClient.invoke(DefaultClient.java:38)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:52)
+	... 18 more
+ERROR [2018-06-21 14:14:22,546][DefaultConnection.java 189] ?????requestId=[1983]??????, ???????????, ????????. com.fiber.remoting.impl.ConnectionResponse@7368ed8e
+ERROR [2018-06-21 14:16:53,023][DefaultConnection.java 234] ??????, requestId=[2300].
+???????=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+????=[60000]ms.
+ERROR [2018-06-21 14:16:53,024][ExchangeProductCard.java 106] 2301;mark=85879973;userId=210000263105502;ticketNum=uT9mqyKkNpG;ticketPwd=500224;ID=196081619;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.TimeoutException: ???????????????60000??
+	at com.fiber.remoting.impl.DefaultClient.receiveResponse(DefaultClient.java:132)
+	at com.fiber.remoting.impl.DefaultClient.invoke(DefaultClient.java:38)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:52)
+	... 18 more
+ERROR [2018-06-21 14:17:44,008][DefaultConnection.java 189] ?????requestId=[2300]??????, ???????????, ????????. com.fiber.remoting.impl.ConnectionResponse@6d34e830
+ERROR [2018-06-21 14:29:31,047][DefaultConnection.java 234] ??????, requestId=[4376].
+???????=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+????=[60000]ms.
+ERROR [2018-06-21 14:29:31,048][ExchangeProductCard.java 106] 4377;mark=85817966;userId=210000263139331;ticketNum=7XE7SWa77Sg;ticketPwd=186860;ID=196058674;??
+java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy53.exchangeProductCard(Unknown Source)
+	at com.tyyd.singleton.ExchangeProductCard.go(ExchangeProductCard.java:95)
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: com.fiber.remoting.TimeoutException: ???????????????60000??
+	at com.fiber.remoting.impl.DefaultClient.receiveResponse(DefaultClient.java:132)
+	at com.fiber.remoting.impl.DefaultClient.invoke(DefaultClient.java:38)
+	at com.yutian.scf.spring.util.SCFSpringConsumerBeanHandler.invoke(SCFSpringConsumerBeanHandler.java:52)
+	... 18 more
+ERROR [2018-06-21 14:30:22,055][DefaultConnection.java 189] ?????requestId=[4376]??????, ???????????, ????????. com.fiber.remoting.impl.ConnectionResponse@50f79786
+ERROR [2018-06-21 14:31:11,360][SpringApplication.java 771] Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:735)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.tyyd.singleton.ExchangeProductCard.main(ExchangeProductCard.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: java.lang.NullPointerException
+	at com.tyyd.singleton.ExchangeProductCard.run(ExchangeProductCard.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	... 14 more
+ERROR [2018-06-21 14:31:16,376][DataRepository.java 258] [Global] Unexpected interruption in NotifierThread: java.lang.InterruptedException

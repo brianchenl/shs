@@ -1,0 +1,21 @@
+
+2018-06-21 14:00:06,830 WARN  scf.common - 
+成功为SCF LOGGER添加Appender. 输出路径:/root/yuedu/baoyueka/log/scf.log
+
+2018-06-21 14:00:34,908 INFO  scf.common - 
+redisConfig is servers=172.23.0.11:6379 timeout=1000 maxWaitMillis=1000 maxTotal=200 enable=true
+
+2018-06-21 14:00:34,976 WARN  scf.common - 
+scfConfig has already inited.
+
+2018-06-21 14:00:35,016 INFO  scf.common - 
+importerProcess subscribe
+
+2018-06-21 14:00:35,252 WARN  scf.common - 
+成功设置对服务接口【com.yutian.prodcutClient.service.proxy.UserTicketService】服务版本【1.0.0】的服务的调用
+
+2018-06-21 14:00:35,253 WARN  scf.common - 
+成功设置对服务接口【com.yutian.prodcutClient.service.ThirdPartyPayService】服务版本【1.0.0】的服务的调用
+
+2018-06-21 14:31:11,365 INFO  scf.common - 
+importerProcess subscribe

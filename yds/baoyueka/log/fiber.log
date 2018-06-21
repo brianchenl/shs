@@ -1,0 +1,17 @@
+14:00:35.013 WARN  [main] (LoggerInit.java:43)initRemotingLogFromBizLog - 成功为REMOTING LOGGER添加Appender. 输出路径:/root/yuedu/baoyueka/log/fiber.log
+14:05:56.265 ERROR [main] (DefaultConnection.java:234)logIfResponseError - 等待响应超时, requestId=[806].
+业务层请求对象=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+等待时间=[60001]ms.
+14:06:47.778 ERROR [SocketConnectorIoProcessor-1.1] (DefaultConnection.java:189)putResponseToQueue - 未找到相应requestId=[806]的消息接收者, 也许是因为这个请求太慢, 系统已做超时处理. com.fiber.remoting.impl.ConnectionResponse@373ad3ce
+14:13:30.948 ERROR [main] (DefaultConnection.java:234)logIfResponseError - 等待响应超时, requestId=[1983].
+业务层请求对象=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+等待时间=[60000]ms.
+14:14:22.546 ERROR [SocketConnectorIoProcessor-1.1] (DefaultConnection.java:189)putResponseToQueue - 未找到相应requestId=[1983]的消息接收者, 也许是因为这个请求太慢, 系统已做超时处理. com.fiber.remoting.impl.ConnectionResponse@7368ed8e
+14:16:53.023 ERROR [main] (DefaultConnection.java:234)logIfResponseError - 等待响应超时, requestId=[2300].
+业务层请求对象=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+等待时间=[60000]ms.
+14:17:44.008 ERROR [SocketConnectorIoProcessor-1.1] (DefaultConnection.java:189)putResponseToQueue - 未找到相应requestId=[2300]的消息接收者, 也许是因为这个请求太慢, 系统已做超时处理. com.fiber.remoting.impl.ConnectionResponse@6d34e830
+14:29:31.047 ERROR [main] (DefaultConnection.java:234)logIfResponseError - 等待响应超时, requestId=[4376].
+业务层请求对象=[SCFRequest [com.yutian.prodcutClient.service.proxy.UserTicketService:1.0.0.exchangeProductCard( 1 )]].
+等待时间=[60000]ms.
+14:30:22.055 ERROR [SocketConnectorIoProcessor-1.1] (DefaultConnection.java:189)putResponseToQueue - 未找到相应requestId=[4376]的消息接收者, 也许是因为这个请求太慢, 系统已做超时处理. com.fiber.remoting.impl.ConnectionResponse@50f79786
